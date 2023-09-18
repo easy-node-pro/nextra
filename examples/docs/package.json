@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "^13.4.19",
+    "nextjs-google-analytics": "^2.3.3",
     "nextra": "workspace:*",
     "nextra-theme-docs": "workspace:*",
     "react": "*",
