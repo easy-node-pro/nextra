@@ -10,7 +10,7 @@ export default {
     link: "https://discord.com/servers/easynode-pro-blockchain-validators-404423550909284372", // Next.js discord server,
   },
   darkMode: true,
-  docsRepositoryBase: "https://github.com/easy-node-pro/docs.easynode.pro",
+  docsRepositoryBase: "https://github.com/easy-node-pro/nextra",
   editLink: {
     text: "Edit this page on GitHub →",
   },
