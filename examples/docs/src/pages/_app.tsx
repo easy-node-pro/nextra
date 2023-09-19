@@ -1,4 +1,4 @@
-// pages/_app.js
+// pages/_app.tsx
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import type { ReactElement } from "react";
 import type { AppProps } from "next/app";
@@ -10,6 +10,7 @@ export default function Nextra({
   return (
     <>
       <script
+        async
         data-name="BMC-Widget"
         data-cfasync="false"
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
@@ -20,7 +21,7 @@ export default function Nextra({
         data-position="Right"
         data-x_margin="18"
         data-y_margin="18"
-      ></script>
+      />
       <GoogleAnalytics trackPageViews />
       <Component {...pageProps} />
     </>

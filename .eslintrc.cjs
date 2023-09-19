@@ -105,7 +105,7 @@ module.exports = {
       parserOptions: {
         project: [
           'packages/*/tsconfig.json',
-          'docs/tsconfig.json',
+          'tsconfig.json',
           'tsconfig.eslint.json'
         ]
       },
