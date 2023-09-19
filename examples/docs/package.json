@@ -6,7 +6,7 @@
     "build": "next build",
     "clean": "rimraf .next .turbo",
     "dev": "next",
-    "start": "next start"
+    "start": "NODE_OPTIONS='-r @newrelic/next' next start"
   },
   "dependencies": {
     "newrelic": "^11.1.0",
