@@ -162,6 +162,9 @@ importers:
 
   examples/docs:
     dependencies:
+      '@newrelic/next':
+        specifier: ^0.7.0
+        version: 0.7.0(newrelic@11.1.0)
       newrelic:
         specifier: ^11.1.0
         version: 11.1.0
@@ -3443,6 +3446,16 @@ packages:
       - supports-color
     dev: false
     optional: true
+
+  /@newrelic/next@0.7.0(newrelic@11.1.0):
+    resolution: {integrity: sha512-IM1CAwGcEzRqGdCue2GPPDGOxNjR1sp6eiRGfV/9yMH7LEIg7GaDTHy1+R1WnbofK5vuhJA5o87K+E4JmLw88w==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      newrelic: '>=11.0.0'
+    dependencies:
+      newrelic: 11.1.0
+      semver: 7.5.4
+    dev: false
 
   /@newrelic/security-agent@0.2.1:
     resolution: {integrity: sha512-oFPnBO+BlJap/qC3r80NuiHmedXdjpWnVnzAlNjsSZoAT7qJM/29tip6ZX/Qmp17mZAIiOVJ2MkyQ5OXHXPdLw==}

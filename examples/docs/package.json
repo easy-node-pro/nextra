@@ -9,6 +9,7 @@
     "start": "NODE_OPTIONS='-r @newrelic/next' next start"
   },
   "dependencies": {
+    "@newrelic/next": "^0.7.0",
     "newrelic": "^11.1.0",
     "next": "^13.4.19",
     "nextjs-google-analytics": "^2.3.3",
