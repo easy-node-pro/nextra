@@ -2,7 +2,8 @@ import nextra from 'nextra'
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
-  themeConfig: './src/theme.config.js',
+  themeConfig: './src/theme.config.tsx',
+  staticImage: true,
   latex: true,
   flexsearch: {
     codeblock: false
@@ -10,5 +11,8 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  reactStrictMode: true
+  reactStrictMode: true,
+  images: {
+    domains: ['docs.easynode.pro', 'easynode.pro'],
+  }
 })
