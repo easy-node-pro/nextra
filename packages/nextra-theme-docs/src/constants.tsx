@@ -261,9 +261,9 @@ export const DEFAULT_THEME: DocsThemeConfig = {
   i18n: [],
   logo: (
     <>
-      <span className="nx-font-extrabold">Nextra</span>
+      <span className="nx-font-extrabold">Easy Node</span>
       <span className="nx-ml-2 nx-hidden nx-font-normal nx-text-gray-600 md:nx-inline">
-        The Next Docs Builder
+        docs.easynode.pro
       </span>
     </>
   ),
