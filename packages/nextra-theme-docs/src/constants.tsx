@@ -251,8 +251,8 @@ export const DEFAULT_THEME: DocsThemeConfig = {
       <meta name="msapplication-TileColor" content="#fff" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="description" content="Easy Node - docs.easynode.pro" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@shuding_" />
+      <meta name="twitter:card" content="/twitter_card_800x418.jpg" />
+      <meta name="twitter:site" content="@easynode_" />
       <meta property="og:title" content="Easy Node - docs.easynode.pro" />
       <meta property="og:description" content="Easy Node - docs.easynode.pro" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
