@@ -180,10 +180,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-    devDependencies:
-      eslint:
-        specifier: ^8.30.0
-        version: 8.56.0
     dependenciesMeta:
       nextra:
         injected: true
